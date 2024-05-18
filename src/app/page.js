@@ -58,7 +58,7 @@ const vions = {
 
 
 export default async function  Home  (req, res) {
-  logger.info('made it')
+
 
   
 
