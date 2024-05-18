@@ -60,7 +60,7 @@ export default function Inputs(props) {
         <div className="image-search-container">
           {searchResults.map((item, index) => (
             <div key={index}>
-            <Image
+            <img
               src={`https://image.tmdb.org/t/p/w200${item.poster_path}`}
               alt={item.title}
               className="image-item"/>  
